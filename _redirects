@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects. The site has no unprefixed root page (locale is
+# always /ar or /en), so send the bare domain to the Arabic homepage.
+/            /ar/    302
